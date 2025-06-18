@@ -39,7 +39,10 @@ summarize(
 Summarize the dataset in a meaningful way (use AT LEAST two of the key functions from slide #12)
 
 ```{r}
+penguins_bill_length = arrange(penguins, bill_length_mm)
+penguins_renamed = arrange(penguins, body_mass_g = 'body_mass')
 
+penguins_renamed
 ```
 
 # Final task
