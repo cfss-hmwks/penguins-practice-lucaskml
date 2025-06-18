@@ -3,9 +3,7 @@ title: "Penguins"
 author: "Jean Clipperton"
 date: "`r Sys.Date()`"
 output: 
-  prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
+  md_document
 ---
 
 ```{r setup, include=FALSE}
